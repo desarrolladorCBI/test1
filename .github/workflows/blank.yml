@@ -24,7 +24,6 @@ jobs:
     steps:
       - name: Convert a url
         id: convert-to-raw-url
-        uses: actioncloud/github-raw-url@v1
         with:
           github-url: https://github.com/desarrolladorCBI/test1/blob/main/Presentacion.pdf
       - name: Another step
